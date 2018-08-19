@@ -30,3 +30,5 @@ alter table student change gender sex tinyint;
 -- 修改表的字段的属性(单纯修改字段属性)
 alter table student modify sex int;
 
+-- 显示student表字段信息
+desc student
